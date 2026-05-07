@@ -4,8 +4,9 @@
 create database escola_db;
 
 create table tb_alunos(
-id BIGINT AUTO PRIMARY KEY,
+id BIGINT PRIMARY KEY,
 nome VARCHAR(150) NOT NULL,
 email VARCHAR(255) NOT NULL UNIQUE,
-senha VARCHAR(19) NOT NULL 
+senha VARCHAR(19) NOT NULL,
+data_nasc DATETIME 
 );
