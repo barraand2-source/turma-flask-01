@@ -6,4 +6,7 @@ class Aluno():
         self.telefone = telefone
 
     def login(self, email, senha):
-        print("Login realizado com sucesso!")    
+        print("Login realizado com sucesso!")
+
+    def logout(self):
+        print("Logout feito com sucesso!")        
