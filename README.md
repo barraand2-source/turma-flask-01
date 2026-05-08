@@ -6,3 +6,5 @@ Exercício GIT e GIT HUB
 - git push origin main
 - git log --oneline
 - git pull origin main
+- git checkout -b nova-branch
+- git clone
