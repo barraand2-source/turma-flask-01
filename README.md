@@ -6,3 +6,11 @@ Exercício GIT e GIT HUB
 - git push origin main
 - git log --oneline
 - git pull origin main
+- git checkout -b nova-branch
+- git clone URL
+- git branch
+# Fluxo de trabalho 
+1. Criar nova branch
+2. Dar commits
+3. Executar git push
+4. Abrir pull request
